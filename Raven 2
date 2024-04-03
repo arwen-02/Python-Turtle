@@ -1,0 +1,354 @@
+import turtle
+
+
+raven=turtle.Turtle()
+raven.speed(400)
+
+#Body
+raven.penup()
+raven.pensize(8)
+raven.goto(-25,100)
+raven.pendown()
+raven.color("black","#6A5ACD")
+raven.begin_fill()
+raven.forward(110)
+raven.right(82)
+raven.forward(709)
+raven.right(74)
+for i in range(33):
+	raven.forward(10)
+	raven.right(1.4)
+raven.right(80)
+raven.forward(200)
+for i in range(52):
+	raven.forward(10)
+	raven.left(0.18)
+	
+raven.penup()
+raven.goto(45,100)
+raven.pendown()
+raven.right(172)
+for i in range(74):
+	raven.forward(10)
+	raven.right(.1)
+	
+raven.penup()
+raven.goto(43,100)
+raven.pendown()
+raven.right(2)
+for i in range(16):
+	raven.forward(10)
+	raven.right(2.2)
+
+raven.penup()
+raven.goto(40,100)
+raven.pendown()
+raven.left(43)
+for i in range(31):
+	raven.forward(10)
+	raven.right(1)
+raven.end_fill()
+
+#Head
+raven.penup()
+raven.pensize(9)
+raven.goto(-45,88)
+raven.pendown()
+raven.color("black","#6A5ACD")
+raven.begin_fill()
+raven.left(117)
+raven.forward(130)
+raven.left(15)
+for i in range(28):
+	raven.forward(10)
+	raven.left(1.8)
+raven.left(67)
+for i in range(13):
+	raven.forward(10)
+	raven.right(2.2)
+raven.forward(50)
+for i in range(25):
+	raven.left(1.4)
+	raven.forward(10)
+raven.left(45)
+raven.forward(90)
+raven.left(5)
+for i in range(10):
+	raven.forward(10)
+	raven.left(2)
+raven.right(4)
+for i in range(10):
+	raven.forward(10)
+	raven.left(1)
+for i in range(10):
+	raven.forward(10)
+	raven.left(4.5)
+raven.forward(50)
+for i in range(6):
+	raven.forward(10)
+	raven.right(12)
+raven.left(150)
+for i in range(4):
+	raven.forward(10)
+	raven.left(2)
+raven.right(78)
+for i in range(10):
+	raven.forward(7)
+	raven.right(1)
+for i in range(8):
+	raven.forward(10)
+	raven.right(7)
+raven.left(100)
+for i in range(35):
+	raven.forward(9)
+	raven.left(1.8)
+raven.end_fill()
+	
+raven.penup()
+raven.goto(-245,360)
+raven.pendown()
+raven.left(75)
+for i in range(18):
+	raven.forward(10)
+	raven.right(1.4)
+	
+#Outer Face
+raven.penup()
+raven.pensize(5)
+raven.goto(-195,205)
+raven.pendown()
+raven.color("black")
+raven.begin_fill()
+raven.right(100)
+for i in range(52):
+	raven.forward(10)
+	raven.left(2)
+raven.left(48)
+for i in range(32):
+	raven.forward(10)
+	raven.left(.6)
+raven.left(143)
+for i in range(15):
+	raven.forward(10)
+	raven.right(2.4)
+raven.right(110)
+for i in range(18):
+	raven.forward(10)
+	raven.left(2.4)
+raven.left(50)
+for i in range(17):
+	raven.forward(10)
+	raven.left(2.4)
+for i in range(16):
+	raven.forward(10)
+	raven.left(.4)
+raven.end_fill()
+	
+#Eye
+raven.penup()
+raven.goto(30,310)
+raven.pendown()
+raven.color("black","white")
+raven.begin_fill()
+raven.left(282)
+raven.forward(160)
+raven.left(100)
+raven.circle(80,160)
+raven.end_fill()
+
+raven.penup()
+raven.pensize(2)
+raven.goto(-30,303)
+raven.pendown()
+raven.color("#9932CC")
+raven.begin_fill()
+raven.right(195)
+for i in range(8):
+	raven.forward(5)
+	raven.left(9)
+raven.circle(22,100)
+for i in range(7):
+	raven.forward(5)
+	raven.left(7)
+raven.end_fill()
+	
+raven.penup()
+raven.goto(-20,308)
+raven.pendown()
+raven.color("black")
+raven.begin_fill()
+raven.left(135)
+for i in range(7):
+	raven.forward(5)
+	raven.left(9)
+raven.circle(13,120)
+for i in range(7):
+	raven.forward(5)
+	raven.left(7)
+raven.end_fill()
+	
+raven.penup()
+raven.goto(-15,295)
+raven.pendown()
+raven.color("white")
+raven.begin_fill()
+raven.circle(7)
+raven.end_fill()
+
+
+raven.penup()
+raven.pensize(5)
+raven.goto(215,320)
+raven.pendown()
+raven.color("black","white")
+raven.begin_fill()
+raven.left(65)
+raven.forward(160)
+raven.left(100)
+raven.circle(80,160)
+raven.end_fill()
+
+raven.penup()
+raven.pensize(2)
+raven.goto(155,315)
+raven.pendown()
+raven.color("#9932CC")
+raven.begin_fill()
+raven.right(195)
+for i in range(8):
+	raven.forward(5)
+	raven.left(9)
+raven.circle(22,100)
+for i in range(7):
+	raven.forward(5)
+	raven.left(7)
+raven.end_fill()
+	
+raven.penup()
+raven.goto(165,320)
+raven.pendown()
+raven.color("black")
+raven.begin_fill()
+raven.left(135)
+for i in range(7):
+	raven.forward(5)
+	raven.left(9)
+raven.circle(13,120)
+for i in range(7):
+	raven.forward(5)
+	raven.left(7)
+raven.end_fill()
+	
+raven.penup()
+raven.goto(170,307)
+raven.pendown()
+raven.color("white")
+raven.begin_fill()
+raven.circle(7)
+raven.end_fill()
+
+#Inner Face
+raven.penup()
+raven.pensize(2)
+raven.goto(158,185)
+raven.pendown()
+raven.color("#FFEFD5")
+raven.begin_fill()
+raven.left(5)
+raven.circle(140,45)
+raven.left(60)
+raven.forward(35)
+raven.right(90)
+raven.forward(37)
+raven.left(65)
+raven.circle(165,45)
+raven.left(80)
+raven.circle(178,80)
+raven.end_fill()
+
+#Mouth
+raven.penup()
+raven.pensize(4)
+raven.goto(10,200)
+raven.pendown()
+raven.color("black")
+raven.begin_fill()
+raven.right(122)
+raven.forward(20)
+raven.circle(37,150)
+raven.forward(20)
+raven.penup()
+raven.goto(10,200)
+raven.pendown()
+raven.right(88)
+raven.circle(175,27)
+raven.end_fill()
+
+#Dila
+raven.penup()
+raven.pensize(2)
+raven.goto(17,175)
+raven.pendown()
+raven.color("#F08080")
+raven.begin_fill()
+raven.right(79)
+raven.circle(37,85)
+raven.left(90)
+raven.circle(37,85)
+raven.end_fill()
+
+#Ngipon
+raven.penup()
+raven.pensize(4)
+raven.goto(10,200)
+raven.pendown()
+raven.color("black","white")
+raven.begin_fill()
+raven.left(90)
+raven.forward(12)
+raven.left(63)
+raven.circle(175,24)
+raven.left(50)
+raven.forward(12)
+raven.left(131)
+for i in range(80):
+	raven.forward(1)
+	raven.right(.3)
+raven.end_fill()
+
+#NeckLace Yellow
+raven.penup()
+raven.pensize(5)
+raven.goto(15,88)
+raven.pendown()
+raven.color("black","#F0E68C")
+raven.begin_fill()
+raven.left(87)
+raven.circle(55,90)
+raven.left(55)
+raven.circle(58,70)
+raven.left(70)
+raven.forward(59)
+raven.end_fill()
+
+#NeckLace Red
+raven.penup()
+raven.pensize(5)
+raven.goto(34,88)
+raven.pendown()
+raven.color("black","#DC143C")
+raven.begin_fill()
+raven.left(90)
+raven.forward(33)
+raven.left(90)
+raven.forward(24)
+raven.left(90)
+raven.forward(31)
+raven.left(90)
+raven.forward(24)
+raven.end_fill()
+raven.hideturtle()
+
+
+
+turtle.done()
