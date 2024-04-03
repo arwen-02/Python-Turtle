@@ -1,0 +1,253 @@
+import turtle
+
+
+teddy=turtle.Turtle()
+teddy.speed(400)
+
+#Whole Body
+teddy.penup()
+teddy.pensize(18)
+teddy.goto(215,0)
+teddy.pendown()
+teddy.color("black","#A0522D")
+teddy.begin_fill()
+teddy.left(85)
+teddy.circle(425,40)
+teddy.right(120)
+teddy.circle(48,67)
+teddy.circle(20,52)
+teddy.circle(70,75)
+teddy.circle(15,57)
+teddy.circle(48,63)
+teddy.right(113)
+teddy.circle(425,26)
+teddy.right(120)
+teddy.circle(48,63)
+teddy.circle(15,57)
+teddy.circle(70,60)
+teddy.circle(20,80)
+teddy.circle(100,20)
+teddy.right(80)
+for i in range(25):
+	teddy.forward(10)
+	teddy.left(1)
+teddy.right(137)
+teddy.circle(315,45)
+teddy.right(74)
+for i in range(24):
+	teddy.forward(10)
+	teddy.left(1.7)
+teddy.circle(10,126)
+for i in range(26):
+	teddy.forward(10)
+	teddy.left(1.7)
+teddy.right(90)
+for i in range(6):
+	teddy.forward(5)
+	teddy.left(9)
+teddy.forward(80)
+teddy.left(182)
+for i in range(25):
+	teddy.forward(10)
+	teddy.left(1.7)
+teddy.circle(13,105)
+teddy.circle(90,43)
+for i in range(42):
+	teddy.forward(5)
+	teddy.left(.5)
+for i in range(17):
+	teddy.forward(5)
+	teddy.left(2.6)
+teddy.right(140)
+for i in range(8):
+	teddy.forward(5)
+	teddy.left(2)
+teddy.circle(15,118)
+for i in range(66):
+	teddy.forward(5)
+	teddy.left(1)
+teddy.end_fill()
+	
+#Teddy Left Foot
+teddy.penup()
+teddy.pensize(9)
+teddy.goto(-50,-350)
+teddy.pendown()
+teddy.color("black","#FFA500")
+teddy.begin_fill()
+teddy.right(35)
+for i in range(13):
+	teddy.forward(5)
+	teddy.left(4)
+teddy.left(57)
+for i in range(7):
+	teddy.forward(10)
+	teddy.left(1.7)	
+teddy.circle(11,120)
+teddy.circle(90,32)
+for i in range(7):
+	teddy.forward(5)
+	teddy.left(.5)
+teddy.end_fill()
+	
+#Teddy Right Foot
+teddy.penup()
+teddy.goto(-165,-248)
+teddy.pendown()
+teddy.begin_fill()
+teddy.left(78)
+for i in range(12):
+	teddy.forward(5)
+	teddy.left(4)
+teddy.left(66)
+for i in range(8):
+	teddy.forward(10)
+	teddy.left(1.7)
+teddy.circle(4,131)
+for i in range(9):
+	teddy.forward(10)
+	teddy.left(1.7)
+teddy.end_fill()
+	
+#Teddy Right Hand
+teddy.penup()
+teddy.goto(-15,-200)
+teddy.pendown()
+teddy.color("black")
+teddy.left(56)
+for i in range(20):
+	teddy.forward(10)
+	teddy.right(.5)
+	
+teddy.penup()
+teddy.goto(10,-160)
+teddy.pendown()
+teddy.color("black","#FFA500")
+teddy.begin_fill()
+teddy.left(110)
+for i in range(4):
+	teddy.forward(5)
+	teddy.left(4)
+teddy.left(63)
+for i in range(6):
+	teddy.forward(5)
+	teddy.left(4)
+teddy.circle(5,134)
+for i in range(1):
+	teddy.forward(10)
+	teddy.left(1.7)
+teddy.left(20)
+teddy.forward(25)
+teddy.end_fill()
+
+#Teddy Left Hand
+teddy.penup()
+teddy.goto(178,-275)
+teddy.pendown()
+teddy.color("black")
+teddy.left(42)
+for i in range(20):
+	teddy.forward(10)
+	teddy.right(.5)
+	
+teddy.penup()
+teddy.goto(184,-245)
+teddy.pendown()
+teddy.color("black","#FFA500")
+teddy.begin_fill()
+teddy.right(107)
+for i in range(11):
+	teddy.forward(5)
+	teddy.left(4)
+teddy.right(130)
+for i in range(6):
+	teddy.forward(10)
+	teddy.right(1.7)
+for i in range(14):
+	teddy.forward(1)
+	teddy.right(8.6)
+for i in range(12):
+	teddy.forward(5)
+	teddy.right(2)
+teddy.end_fill()
+	
+#Teddy's Nose
+teddy.penup()
+teddy.pensize(5)
+teddy.goto(150,150)
+teddy.pendown()
+teddy.color("black")
+teddy.begin_fill()
+teddy.left(90)
+teddy.circle(77,70)
+teddy.circle(22,110)
+teddy.circle(77,70)
+teddy.circle(22,110)
+teddy.end_fill()
+
+
+teddy.penup()
+teddy.pensize(5)
+teddy.goto(129,129)
+teddy.pendown()
+teddy.color("white")
+teddy.begin_fill()
+teddy.circle(22,70)
+teddy.circle(4,110)
+teddy.circle(22,70)
+teddy.circle(4,110)
+teddy.end_fill()
+
+#Teddy's Eye
+teddy.penup()
+teddy.pensize(5)
+teddy.goto(80,135)
+teddy.pendown()
+teddy.color("black")
+teddy.begin_fill()
+teddy.right(85)
+teddy.circle(19,70)
+teddy.circle(8,110)
+teddy.circle(19,70)
+teddy.circle(8,110)
+teddy.end_fill()
+
+teddy.penup()
+teddy.goto(110,165)
+teddy.pendown()
+teddy.begin_fill()
+teddy.circle(19,70)
+teddy.circle(8,110)
+teddy.circle(19,70)
+teddy.circle(8,110)
+teddy.end_fill()
+
+#Teddy's Ear
+teddy.penup()
+teddy.goto(133,300)
+teddy.pendown()
+teddy.color("black")
+teddy.right(65)
+teddy.circle(30,42)
+teddy.circle(8,47)
+teddy.circle(23,60)
+teddy.circle(6,85)
+teddy.circle(35,40)
+teddy.circle(8,52)
+
+teddy.penup()
+teddy.goto(-62,159)
+teddy.pendown()
+teddy.left(120)
+teddy.circle(35,40)
+teddy.circle(8,80)
+teddy.circle(23,53)
+teddy.circle(6,70)
+teddy.circle(35,37)
+teddy.circle(8,52)
+
+teddy.hideturtle()
+
+
+
+turtle.done()
