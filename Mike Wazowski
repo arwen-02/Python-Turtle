@@ -1,0 +1,450 @@
+import turtle
+
+mike=turtle.Turtle()
+mike.speed(300)
+
+#Head
+mike.penup()
+mike.pensize(10)
+mike.goto(-100,200)
+mike.pendown()
+mike.color("black","#ADFF2F")
+mike.begin_fill()
+mike.left(207)
+mike.circle(200,90)
+
+mike.penup()
+mike.goto(-185,-73)
+mike.pendown()
+mike.left(8)
+mike.circle(220,112)
+
+mike.penup()
+mike.goto(180,-67)
+mike.pendown()
+mike.left(7)
+mike.circle(200,88)
+
+mike.penup()
+mike.goto(100,180)
+mike.pendown()
+mike.right(40)
+mike.circle(112,135)
+mike.end_fill()
+
+#White Eye
+mike.penup()
+mike.pensize(7)
+mike.goto(-17,0)
+mike.pendown()
+mike.color("black","white")
+mike.begin_fill()
+mike.left(105)
+mike.circle(105)
+mike.end_fill()
+
+#Green Eye
+mike.penup()
+mike.pensize(5)
+mike.goto(-10,60)
+mike.pendown()
+mike.color("black","#00FF7F")
+mike.begin_fill()
+mike.circle(50)
+mike.end_fill()
+
+#Black Eye
+mike.penup()
+mike.goto(-7,80)
+mike.pendown()
+mike.color("black")
+mike.begin_fill()
+mike.circle(29)
+mike.end_fill()
+
+#White Eye
+mike.penup()
+mike.goto(-2,110)
+mike.pendown()
+mike.color("white")
+mike.begin_fill()
+mike.circle(7)
+mike.end_fill()
+
+#Mouth
+mike.penup()
+mike.pensize(8)
+mike.goto(-150,0)
+mike.pendown()
+mike.color("black")
+mike.right(47)
+mike.circle(170,120)
+
+#Chin
+mike.penup()
+mike.pensize(6)
+mike.goto(-130,5)
+mike.pendown()
+mike.left(120)
+mike.circle(60,40)
+
+#Wrink
+mike.penup()
+mike.goto(165,20)
+mike.pendown()
+mike.right(80)
+mike.circle(53,50)
+#Wrink
+mike.penup()
+mike.pensize(8)
+mike.goto(-51,-97)
+mike.pendown()
+mike.left(145)
+mike.circle(110,55)
+
+#Right Hand
+mike.penup()
+mike.pensize(7)
+mike.goto(200,60)
+mike.pendown()
+mike.color("black","#ADFF2F")
+mike.begin_fill()
+mike.right(65)
+mike.forward(130)
+for i in range(11):
+	mike.right(10)
+	mike.forward(1)
+mike.forward(110)
+mike.left(17)
+for i in range(13):
+	mike.right(1.7)
+	mike.forward(3)
+mike.forward(30)
+for i in range(4):
+	mike.right(25)
+	mike.forward(4)
+mike.forward(10)
+for i in range(3):
+	mike.left(29)
+	mike.forward(4)
+mike.forward(7)
+mike.right(155)
+mike.circle(220,25)
+mike.right(95)
+for i in range(8):
+	mike.forward(5)
+	mike.right(5)
+mike.left(106)
+mike.forward(75)
+mike.left(103)
+for i in range(8):
+	mike.forward(10)
+	mike.left(2.8)
+mike.end_fill()
+
+#Left Hand
+mike.penup()
+mike.goto(-210,10)
+mike.pendown()
+mike.color("black","#ADFF2F")
+mike.begin_fill()
+mike.left(31)
+for i in range(8):
+	mike.forward(10)
+	mike.left(2.8)
+mike.left(90)
+mike.forward(75)
+mike.left(101)
+for i in range(8):
+	mike.forward(5)
+	mike.right(4)
+mike.right(77)
+mike.circle(220,20)
+mike.right(137)
+mike.forward(7)
+for i in range(3):
+	mike.left(29)
+	mike.forward(4)
+for i in range(4):
+	mike.right(25)
+	mike.forward(4)
+mike.forward(10)
+for i in range(13):
+	mike.right(1.7)
+	mike.forward(3)
+mike.forward(30)
+mike.right(17)
+mike.forward(110)
+for i in range(11):
+	mike.right(10)
+	mike.forward(1)
+mike.left(11)
+mike.forward(135)
+mike.end_fill()
+
+#Left Leg
+mike.penup()
+mike.goto(-95,-150)
+mike.pendown()
+mike.color("black","#ADFF2F")
+mike.begin_fill()
+mike.right(155)
+mike.forward(100)
+mike.left(33)
+for i in range(23):
+	mike.forward(5)
+	mike.left(.9)
+mike.right(105)
+mike.forward(145)
+mike.right(142)
+mike.forward(57)
+mike.right(95)
+mike.circle(35,150)
+for i in range(14):
+	mike.forward(5)
+	mike.left(.3)
+mike.right(40)
+mike.forward(115)
+mike.end_fill()
+
+#Right Leg
+mike.penup()
+mike.goto(110,-135)
+mike.pendown()
+mike.color("black","#ADFF2F")
+mike.begin_fill()
+mike.right(134)
+mike.forward(90)
+mike.right(23)
+for i in range(17):
+	mike.forward(5)
+	mike.left(.3)
+mike.right(15)
+mike.circle(30,155)
+mike.right(105)
+for i in range(12):
+	mike.forward(5)
+	mike.right(.9)
+mike.right(125)
+mike.forward(120)
+mike.right(90)
+for i in range(27):
+	mike.forward(5)
+	mike.left(.5)
+mike.left(26)
+mike.forward(87)
+mike.end_fill()
+
+#Left Foot
+#Toe Tip
+mike.penup()
+mike.goto(-247,-353)
+mike.pendown()
+mike.color("black","#ADFF2F")
+mike.begin_fill()
+mike.left(5)
+for i in range(18):
+	mike.forward(1)
+	mike.left(1.4)
+mike.right(105)
+for i in range(25):
+	mike.forward(1)
+	mike.right(1)
+mike.right(55)
+mike.forward(16)
+mike.end_fill()
+
+#Nail
+mike.penup()
+mike.goto(-247,-353)
+mike.pendown()
+mike.color("black","#A9A9A9")
+mike.begin_fill()
+mike.right(190)
+for i in range(18):
+	mike.forward(1)
+	mike.left(1.4)
+mike.left(60)
+for i in range(30):
+	mike.forward(1)
+	mike.left(1)
+mike.left(120)
+mike.forward(28)
+mike.end_fill()
+
+#Toe Tip
+mike.penup()
+mike.goto(-270,-350)
+mike.pendown()
+mike.color("black","#ADFF2F")
+mike.begin_fill()
+mike.left(120)
+for i in range(13):
+	mike.forward(1)
+	mike.left(1.4)
+mike.right(105)
+for i in range(25):
+	mike.forward(1)
+	mike.right(1)
+mike.right(55)
+mike.forward(11)
+mike.end_fill()
+
+#Nail
+mike.penup()
+mike.goto(-270,-350)
+mike.pendown()
+mike.color("black","#A9A9A9")
+mike.begin_fill()
+mike.left(180)
+for i in range(13):
+	mike.forward(1)
+	mike.left(1.4)
+mike.left(60)
+for i in range(25):
+	mike.forward(1)
+	mike.left(1)
+mike.left(120)
+mike.forward(21)
+mike.end_fill()
+
+#Right Foot
+#Toe Tip
+mike.penup()
+mike.goto(230,-360)
+mike.pendown()
+mike.color("black","#ADFF2F")
+mike.begin_fill()
+mike.left(35)
+for i in range(18):
+	mike.forward(1)
+	mike.right(1.4)
+mike.left(100)
+for i in range(31):
+	mike.forward(1)
+	mike.left(1)
+mike.left(55)
+mike.forward(16)
+mike.end_fill()
+
+#Nail
+mike.penup()
+mike.goto(230,-360)
+mike.pendown()
+mike.color("black","#A9A9A9")
+mike.begin_fill()
+mike.right(170)
+for i in range(18):
+	mike.forward(1)
+	mike.right(1.4)
+mike.right(60)
+for i in range(30):
+	mike.forward(1)
+	mike.right(1)
+mike.right(125)
+mike.forward(28)
+mike.end_fill()
+
+#Toe Tip
+mike.penup()
+mike.goto(250,-355)
+mike.pendown()
+mike.color("black","#ADFF2F")
+mike.begin_fill()
+mike.right(120)
+for i in range(13):
+	mike.forward(1)
+	mike.right(1.4)
+mike.left(105)
+for i in range(25):
+	mike.forward(1)
+	mike.left(1)
+mike.left(55)
+mike.forward(11)
+mike.end_fill()
+
+#Nail
+mike.penup()
+mike.goto(250,-355)
+mike.pendown()
+mike.color("black","#A9A9A9")
+mike.begin_fill()
+mike.left(175)
+for i in range(13):
+	mike.forward(1)
+	mike.right(1.4)
+mike.right(60)
+for i in range(25):
+	mike.forward(1)
+	mike.right(1)
+mike.right(120)
+mike.forward(15)
+mike.end_fill()
+
+#Nail
+mike.penup()
+mike.goto(-225,-365)
+mike.pendown()
+mike.color("black","#A9A9A9")
+mike.begin_fill()
+mike.right(45)
+for i in range(18):
+	mike.forward(1)
+	mike.left(1.4)
+mike.left(90)
+mike.forward(35)
+mike.left(147)
+mike.forward(35)
+mike.end_fill()
+
+#Nail
+mike.penup()
+mike.goto(203,-372)
+mike.pendown()
+mike.color("black","#A9A9A9")
+mike.begin_fill()
+mike.left(77)
+for i in range(28):
+	mike.forward(1)
+	mike.right(1.7)
+mike.right(90)
+mike.forward(35)
+mike.right(138)
+mike.forward(35)
+mike.end_fill()
+
+#Horn
+mike.penup()
+mike.pensize(7)
+mike.goto(-113,195)
+mike.pendown()
+mike.color("black","#A9A9A9")
+mike.begin_fill()
+mike.right(47)
+for i in range(7):
+	mike.forward(5)
+	mike.right(1.8)
+mike.circle(4,147)
+for i in range(10):
+	mike.forward(5)
+	mike.left(2.4)
+mike.end_fill()
+
+#Horn
+mike.penup()
+mike.pensize(7)
+mike.goto(133,170)
+mike.pendown()
+mike.color("black","#A9A9A9")
+mike.begin_fill()
+mike.left(160)
+for i in range(10):
+	mike.forward(5)
+	mike.left(2.4)
+mike.circle(4,147)
+for i in range(6):
+	mike.forward(5)
+	mike.right(1.8)
+mike.end_fill()
+
+turtle.done()
